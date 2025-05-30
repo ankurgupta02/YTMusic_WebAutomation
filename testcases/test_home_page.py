@@ -4,7 +4,7 @@ from utilities.custom_logger import LogGen
 from pages.elements import Elements
 from pages.locators import Home_Locators, Player_Locators
 from utilities.common_helpers import Common_Helpers
-from utilities.read_properties import ReadConfig
+from utilities.read_config import ReadConfig
 
 
 class Test_Home_Page_Signout:
@@ -13,7 +13,7 @@ class Test_Home_Page_Signout:
     @pytest.fixture(autouse=True)
     def pageObjects(self, setup):
         self.driver = setup
-        self.driver.get(ReadConfig.getApplicationUrl())
+        self.driver.get(ReadConfig.get_application_url())
         self.hp = Home_Page_Shelf(self.driver)
         self.ch = Common_Helpers(self.driver)
 

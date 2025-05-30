@@ -1,6 +1,6 @@
 class Elements:
 
-    EXPECTED_TITLE = "YouTube Music"
+    EXPECTED_TITLE = "YouTube Music!"
 
     SAVE_TO_PLAYLIST = 'Save to playlist'
     SAVE_THIS_FOR_LATER = 'Save this for later'
