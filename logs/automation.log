@@ -1,18 +1,18 @@
-2025-05-30 12:42:14,250 - INFO - **** test_play_video test case begin ****
-2025-05-30 12:42:20,513 - INFO - **** Video playback is successful. ****
+2025-06-02 16:38:30,626 - INFO - **** test_play_video test case begin ****
+2025-06-02 16:38:49,941 - INFO - **** Video playback is successful. ****
 
-2025-05-30 12:42:23,344 - INFO - **** test_pause_video test case begin ****
-2025-05-30 12:42:29,534 - INFO - **** Video paused is successful. ****
+2025-06-02 16:38:52,783 - INFO - **** test_pause_video test case begin ****
+2025-06-02 16:39:05,094 - INFO - **** Video paused is successful. ****
 
-2025-05-30 12:42:32,593 - INFO - **** test_player_play_button test case begin ****
-2025-05-30 12:42:38,972 - INFO - **** Video playback is successful after clicking play button. ****
+2025-06-02 16:39:07,733 - INFO - **** test_player_play_button test case begin ****
+2025-06-02 16:39:19,926 - INFO - **** Video playback is successful after clicking play button. ****
 
-2025-05-30 12:42:41,306 - INFO - **** test_player_pause_button test case begin ****
-2025-05-30 12:42:48,071 - INFO - **** Video paused is successful after clicking pause button. ****
+2025-06-02 16:39:22,717 - INFO - **** test_player_pause_button test case begin ****
+2025-06-02 16:39:39,019 - INFO - **** Video paused is successful after clicking pause button. ****
 
-2025-05-30 12:42:50,884 - INFO - **** test_player_next_button test case begin ****
-2025-05-30 12:42:52,463 - INFO - **** Next video playback is successful. ****
+2025-06-02 16:39:41,407 - INFO - **** test_player_next_button test case begin ****
+2025-06-02 16:39:59,796 - INFO - **** Next video playback is successful. ****
 
-2025-05-30 12:42:54,733 - INFO - **** test_player_previous_button test case begin ****
-2025-05-30 12:42:56,654 - INFO - **** Previous video playback is successful. ****
+2025-06-02 16:40:02,553 - INFO - **** test_player_previous_button test case begin ****
+2025-06-02 16:40:21,949 - INFO - **** Previous video playback is successful. ****
 

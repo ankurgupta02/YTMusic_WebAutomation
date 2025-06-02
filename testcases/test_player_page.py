@@ -45,6 +45,7 @@ class TestPlayerPage:
         self.logger.info("**** test_player_play_button test case begin ****")
         self.player_page.wait_until_video_ready()
         self.player_page.click_button(Player_Locators.PLAY_BUTTON)
+        self.player_page.wait_until_video_ready()
         self.player_page.wait_for_ads_to_finish()
         self.player_page.assert_is_playing()
         self.logger.info("**** Video playback is successful after clicking play button. ****\n")

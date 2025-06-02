@@ -26,6 +26,7 @@ class PlayerPage:
 
     def play(self):
         # Play the video by clicking on the page body (to focus) and invoking play() on the video element.
+        WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.TAG_NAME, "video")))
         self.driver.find_element(By.TAG_NAME, 'body').click()
         self._execute_js("play()")
 
