@@ -5,7 +5,8 @@
 The framework covers:
 
 - **Login flow validation**
-- **Home page shelf - Randomly choose a video at run time and perform actions**
+- **Home page shelf - Horizontally scrollable**
+- **Home page shelf - Randomly choose a video at run time and perform actions on 3 dots menu**
 - **Video playback control**
 - **Ad wait handling**
 - **Playlist queue navigation**
